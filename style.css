@@ -1,0 +1,39 @@
+body{
+    background-color: green;
+}
+
+body h1{
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    background-color: greenyellow;
+    padding: 30px;
+}
+
+.kotak{
+    background-color: greenyellow;
+    padding: 50px;
+    text-align: center;
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.kotak input[type="text"]{
+    width: 200px;
+    display: block;
+    border-radius: 24px;
+}
+
+input[type="text"]{
+    text-align: center;
+}
+
+.kotak input[type="submit"]{
+    display: block;
+    border-radius: 24px;
+    margin: 20px auto;
+    width: 100px;
+}
